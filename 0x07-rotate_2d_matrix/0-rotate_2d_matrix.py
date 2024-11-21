@@ -15,4 +15,4 @@ def rotate_2d_matrix(matrix):
         for r in range(c, n):
             matrix[c][r],matrix[r][c] = matrix[r][c],matrix[c][r]
     for row in matrix:
-        row.reverse
+        row.reverse()
